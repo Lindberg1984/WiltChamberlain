@@ -1,0 +1,103 @@
+* {
+	font-family: helvetica;
+}
+  
+body {
+	margin: 0;
+	padding: 0;
+	color: #fdb825;
+	text-align: center;
+}
+  
+.head-image {
+	background-image: url(Images/labynight.jpg);
+	background-position-y: -350px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+  
+/* Logo settings begin here! */
+  
+.logo {
+	height: 160px;
+	margin: 0;
+}
+  
+/* Headline settings begin here! */
+  
+.welcome-title {
+	font-size: 16px;
+	margin: 0 auto;
+	text-shadow: 3px 3px 3px #000;
+}
+  
+.welcome-text {
+	font-size: 18px;
+	text-shadow: 3px 3px 3px #000;
+}
+  
+/* Navbar settings begin here! */
+  
+ul {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 10px;
+	position: relative;
+}
+  
+ul li {
+	background-color: #252223;
+	border: 2px solid #fdb825;
+	border-radius: 6px;
+	float: left;
+	font-size: 16px;
+	font-weight: 700;
+	height: 80px;
+	line-height: 30px;
+	margin-right: 12px;
+	opacity: 0.8;
+	text-shadow: 3px 3px 3px #000;
+	width: 140px;
+}
+  
+ul li a {
+	text-decoration: none;
+	color: #fdb825;
+	display: block;
+	padding: 2px;
+}
+  
+ul li:hover {
+	background-color: #530f74;
+	border-radius: 6px;
+}
+  
+ul li a:hover {
+	transform: scale(1.1);
+}
+  
+ul li ul li {
+	display: none;
+	position: relative;
+	right: 12px;
+	top: 36px;
+}
+
+ul li:hover ul li {
+	display: block;
+}
+  
+/* Main body and picture settings begin here! */
+  
+.main {
+	background-image: url(Images/Wilt-Chamberlain-6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 860px;
+	width: 100%;
+}
+
+.video {
+	margin: 16px;
+}
